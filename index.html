@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Building a User Management Application with Javascript and Localhost API</h1>
+    <p>Managing user data is a fundamental requirement for many web applications. In this blog, we will explore how to build a user management application using JavaScript and a localhost API. This application will allow users to sign up, log in, and manage their profiles, providing a comprehensive example of handling user interactions and API calls.</p>
+
+    <h2>Project Overview</h2>
+    <p>Our user management application includes the following functionalities</p>
+    <ul>
+        <li>
+            <b>Sign up:</b> Users can sign up for an account by providing their name, email
+        </li>
+        <li>
+            <b>Log in:</b> Users can log in to their account by providing their email and password
+        </li>
+        <li>
+            <b>Profile management:</b> Users can manage their profile by updating their name, email, and password
+        </li>
+        <li>
+            <b>Profile Display:</b> Once logged in, users can see their profile information, including username, bio and posts
+        </li>
+    </ul>
+    <h2>Technologies Used</h2>
+    <p>Our user management application uses the following technologies:</p>
+    <ul>
+        <li>
+            <b>HTML:</b> For the structure of the application
+        </li>
+        <li>
+            <b>CSS:</b> For styling the structure of the application
+        </li>
+        <li>
+            <b>JavaScript:</b> For handling user interactions and API calls
+        </li>
+    </ul>
+    <h2>API</h2>
+    <p>Our user management application uses a localhost API to store and retrieve user data.
+        The API is built using Node.js and Express.js and is hosted on localhost:3000.
+        The API provides the following endpoints:</p>
+        <ul>
+            <li>
+                <b>/users:</b> Returns a list of all users
+            </li>
+            <li>
+                <b>/users/:id:</b> Returns a specific user based on their ID
+            </li>
+            <li>
+                <b>/users/:id/posts:</b> Returns a list of all posts made by a user 
+            </li>
+            <li>
+                <b>/users/:id/posts/:post_id:</b> Returns a specific post made by a user
+            </li>
+            <li>
+                <b>/users/:id/patch:</b> Updates a user's profile information
+            </li>
+            <li>
+                <b>/users/:id/delete:</b> Deletes a user's account
+            </li>
+        </ul>
+        <h2>Conclusion</h2>
+        <p>Our user management application provides a simple and intuitive way for users to manage their profiles
+            and interact with other users. The application is built using modern technologies and is easy to use and
+            understand. The API provides a robust set of endpoints for retrieving and updating user data, making it
+            easy to integrate with other applications. Overall, our user management application is a great tool for
+            managing user profiles and interacting with other users.</p>
+</body>
+</html>
